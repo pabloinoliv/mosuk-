@@ -1,0 +1,66 @@
+<html lang="pt-br">
+
+<head>
+    <title>cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="formulario.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="cabeçalho">
+        <img class="logo" src="Design sem nome.png">
+        <h1 class="titulo">CADASTRO PARA ORÇAMENTO</h1>
+        <P class="frase">Complete as informações que entraremos em contato</P>
+        <br>
+    </div>
+
+    <form class="form" method="get" action="https://api.whatsapp.com/send?phone=5535997407482">
+        <fieldset class="nome-sobrenome">
+            <div>
+                <label>nome</label>
+                <input type:"text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>sobrenome</label>
+                <input type:"text" name="sobrenome" id="sobrenome">
+            </div>
+
+        </fieldset>
+
+        <fieldset class="email-number">
+            <div>
+                <label>email</label>
+                <input type:"email" name="email" id="email" </div>
+                <div>
+                    <label>número</label>
+                    <input type:"number" name="numero" id="numero" </div>
+        </fieldset>
+
+        <div class="options">
+            <label>Como poderiamos ajudar?</label>
+            <label>
+                <input type="radio" name="casamento" value="musicos">musicos
+            </label>
+
+            <label>
+                <input type="radio" name="casamento" value="acessoria">acessoria
+            </label>
+
+            <label>
+                <input type="radio" name="casamento" value="completo">completo
+            </label>
+        </div>
+
+        <button class="botao" type="submit">enviar</button>
+
+    </form>
+    <footer class="rodape">
+        <img class="foto-rodape" src="foto-rodape.png">
+    </footer>
+
+</body>
+
+</html>

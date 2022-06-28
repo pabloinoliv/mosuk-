@@ -1,0 +1,114 @@
+body{
+    background-color: #73664F;
+    padding: none;
+    margin: none;
+    font-size: none;
+    font-style: none;
+    
+}
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+.logo{
+    height: 175px;
+}
+.menu{
+    display: flex;
+    gap: 32px;
+}
+.contato:hover{
+    background-color: #413a2d;
+}
+.contato{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+
+}
+.orçamento:hover{
+    background-color: #413a2d;
+}
+.orçamento{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.conteudo{
+    margin-bottom: 50px;
+    border-top: solid 0.4px white;
+    color: white;
+}
+.conteudo-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pergunta{
+    font-size: 30px;
+    font-weight: 400;
+}
+.resposta{
+    font-size: 18px;
+}
+.botao:hover{
+    background-color: #413a2d;
+}
+.botao{
+    border-radius: 20px;
+    max-width: 180px;
+    max-height: 180px;
+    box-shadow: 4px 5px 4px rgba (0,0,0,0.25);
+    border: none;
+    text-decoration: none;
+}
+.foto-musicos{
+    height: 400px;
+}
+
+.conteudo-2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+    gap:24px;
+}
+.pergunta-isca{
+    font-size: 45px;
+    font-weight: 400;
+    border-top: solid 0.4px white;
+    padding-top: 30px;
+}
+.frase-1{
+    font-size: 18px;
+}
+.frase-2{
+    font-size: 18px;
+}
+.frase-3{
+    font-size: 18px;
+}
+.frase-4{
+    font-size: 18px;
+}
+.afirmação{
+    font-size: 24px;
+}
+
+.rodapé{
+    padding: 30px;
+    border-top: solid 0.4px white;
+}
+.foto-rodapé{
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}

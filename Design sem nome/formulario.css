@@ -1,0 +1,59 @@
+body{
+    background-color: #73664F;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+.logo{
+    height: 180px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 0.4px white;
+}
+.nome-sobrenome{
+    border: none;
+    margin-bottom: 24px;
+    align-items: center;
+    color: white;
+}
+.email-number{
+    align-items: center;
+    border: none;
+    margin-bottom: 24px;
+    color: white;
+}
+.options{
+    margin-bottom: 24px;
+    color: white;
+}
+.botao{
+    border-radius: 20px;
+    max-width: 180px;
+    max-height: 180px;
+    box-shadow: 4px 5px 4px rgba (0,0,0,0.25);
+    border: none;
+}
+.botao:hover{
+    background-color: #413a2d;
+}
+.rodape{  
+    display: flex;
+    border-top: solid 0.4px white;
+    align-items: center;
+    padding-top: 30px;
+}
+.foto-rodape{
+    height: 100px;
+    margin: 0 auto
+}
